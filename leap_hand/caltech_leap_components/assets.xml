@@ -1,0 +1,25 @@
+<mujoco model="leap_assets">
+  <asset>
+    <!-- meshes -->
+    <mesh name="palm_right" file="../assets/leap/palm_right.obj"/>
+    <mesh name="base" file="../assets/leap/base.obj"/>
+    <mesh name="proximal" file="../assets/leap/proximal.obj"/>
+    <mesh name="medial" file="../assets/leap/medial.obj"/>
+    <mesh name="distal" file="../assets/leap/distal.obj"/>
+    <mesh name="tip" file="../assets/leap/tip.obj"/>
+    <mesh name="thumb_base" file="../assets/leap/thumb_base.obj"/>
+    <mesh name="thumb_proximal" file="../assets/leap/thumb_proximal.obj"/>
+    <mesh name="thumb_distal" file="../assets/leap/thumb_distal.obj"/>
+    <mesh name="thumb_tip" file="../assets/leap/thumb_tip.obj"/>
+    <mesh name="leap_mount" file="../assets/leap/leap_mount.obj"/>
+
+    <!-- scene -->
+    <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512"
+      height="3072" />
+    <texture type="2d" name="groundplane" builtin="checker" mark="edge" rgb1="0.2 0.3 0.4"
+      rgb2="0.1 0.2 0.3"
+      markrgb="0.8 0.8 0.8" width="300" height="300" />
+    <material name="groundplane" texture="groundplane" texuniform="true" texrepeat="5 5"
+      reflectance="0.2" />
+  </asset>
+</mujoco>
