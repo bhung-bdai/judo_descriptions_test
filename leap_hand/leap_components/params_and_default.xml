@@ -1,5 +1,5 @@
 <mujoco model="leap_cube_default">
-  <compiler angle="radian" assetdir="../assets/leap/" />
+  <compiler angle="radian" assetdir="../assets/" />
   <option timestep="0.01" integrator="implicitfast" cone="elliptic" impratio="100"/>
 
   <asset>

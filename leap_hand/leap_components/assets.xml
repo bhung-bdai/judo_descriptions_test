@@ -1,14 +1,14 @@
 <mujoco model="leap_assets">
   <asset>
-    <mesh name="palm" file="../assets/leap/palm_right.obj"/>
-    <mesh name="base" file="../assets/leap/base.obj"/>
-    <mesh name="proximal" file="../assets/leap/proximal.obj"/>
-    <mesh name="medial" file="../assets/leap/medial.obj"/>
-    <mesh name="distal" file="../assets/leap/distal.obj"/>
-    <mesh name="tip" file="../assets/leap/tip.obj"/>
-    <mesh name="thumb_base" file="../assets/leap/thumb_base.obj"/>
-    <mesh name="thumb_proximal" file="../assets/leap/thumb_proximal.obj"/>
-    <mesh name="thumb_distal" file="../assets/leap/thumb_distal.obj"/>
-    <mesh name="thumb_tip" file="../assets/leap/thumb_tip.obj"/>
+    <mesh name="palm" file="../assets/palm_right.obj"/>
+    <mesh name="base" file="../assets/base.obj"/>
+    <mesh name="proximal" file="../assets/proximal.obj"/>
+    <mesh name="medial" file="../assets/medial.obj"/>
+    <mesh name="distal" file="../assets/distal.obj"/>
+    <mesh name="tip" file="../assets/tip.obj"/>
+    <mesh name="thumb_base" file="../assets/thumb_base.obj"/>
+    <mesh name="thumb_proximal" file="../assets/thumb_proximal.obj"/>
+    <mesh name="thumb_distal" file="../assets/thumb_distal.obj"/>
+    <mesh name="thumb_tip" file="../assets/thumb_tip.obj"/>
   </asset>
 </mujoco>
